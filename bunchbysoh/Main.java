@@ -12,8 +12,7 @@ public class Main {
     counts=100*presentCapacities/120;
    
       
-    return counts;
-  }
+   
   if(count>80 || count<=100)
 {
   return healthy;
@@ -27,7 +26,7 @@ else
 {
   return failed;
 }
-
+  }
 
   static void testBucketingByHealth() {
     System.out.println("Counting batteries by SoH...\n");
