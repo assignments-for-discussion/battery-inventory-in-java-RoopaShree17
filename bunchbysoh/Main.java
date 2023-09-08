@@ -9,7 +9,7 @@ public class Main {
 
   static CountsBySoH countBatteriesByHealth(int[] presentCapacities) {
     CountsBySoH counts = new CountsBySoH();
-    counts=
+    counts=100*presentCapacities/relatedCapacities;
     return counts;
   }
 
