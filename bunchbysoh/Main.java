@@ -14,10 +14,18 @@ public class Main {
       
     return counts;
   }
-  if(count>=80 || count<=100)
+  if(count>80 || count<=100)
 {
   return healthy;
   
+}
+else if(count<=80 || count>=65)
+{
+  return exchange;
+}
+else 
+{
+  return failed;
 }
 
 
