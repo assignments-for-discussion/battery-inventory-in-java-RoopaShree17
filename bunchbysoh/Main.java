@@ -10,8 +10,16 @@ public class Main {
   static CountsBySoH countBatteriesByHealth(int[] presentCapacities) {
     CountsBySoH counts = new CountsBySoH();
     counts=100*presentCapacities/relatedCapacities;
+   
+      
     return counts;
   }
+  if(count>=80 || count<=100)
+{
+  return healthy;
+  
+}
+
 
   static void testBucketingByHealth() {
     System.out.println("Counting batteries by SoH...\n");
