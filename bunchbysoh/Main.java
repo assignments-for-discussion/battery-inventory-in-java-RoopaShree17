@@ -9,6 +9,7 @@ public class Main {
 
   static CountsBySoH countBatteriesByHealth(int[] presentCapacities) {
     CountsBySoH counts = new CountsBySoH();
+    counts=
     return counts;
   }
 
@@ -19,6 +20,7 @@ public class Main {
     assert(counts.healthy == 2);
     assert(counts.exchange == 3);
     assert(counts.failed == 1);
+    
     System.out.println("Done counting :)\n");
   }
 
