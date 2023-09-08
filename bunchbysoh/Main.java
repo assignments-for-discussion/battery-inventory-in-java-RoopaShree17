@@ -15,16 +15,16 @@ public class Main {
    
   if(count>80 || count<=100)
 {
-  return healthy;
+   healthy+=1;
   
 }
 else if(count<=80 || count>=65)
 {
-  return exchange;
+  exchange+=1;
 }
 else 
 {
-  return failed;
+  failed+=1;
 }
   }
 
