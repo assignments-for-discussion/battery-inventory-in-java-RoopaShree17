@@ -9,7 +9,24 @@ public class Main {
 
   static CountsBySoH countBatteriesByHealth(int[] presentCapacities) {
     CountsBySoH counts = new CountsBySoH();
-    return counts;
+    counts=100*presentCapacities/120;
+   
+      
+   
+  if(count>80 || count<=100)
+{
+   healthy+=1;
+  
+}
+else if(count<=80 || count>=65)
+{
+  exchange+=1;
+}
+else 
+{
+  failed+=1;
+}
+    return (healthy,exchange,failed);
   }
 
   static void testBucketingByHealth() {
@@ -19,6 +36,7 @@ public class Main {
     assert(counts.healthy == 2);
     assert(counts.exchange == 3);
     assert(counts.failed == 1);
+    
     System.out.println("Done counting :)\n");
   }
 
