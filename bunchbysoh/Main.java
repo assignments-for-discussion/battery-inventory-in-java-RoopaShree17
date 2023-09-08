@@ -26,6 +26,7 @@ else
 {
   failed+=1;
 }
+    return (healthy,exchange,failed);
   }
 
   static void testBucketingByHealth() {
